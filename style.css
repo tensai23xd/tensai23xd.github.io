@@ -1,0 +1,107 @@
+/* Configuración General */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff8e7; /* Fondo amarillo cálido muy suave */
+  color: #4a3b32; /* Texto en tono café para contraste cálido */
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* Encabezado */
+header {
+  background-color: #ffcc00; /* Amarillo cálido vibrante */
+  padding: 30px 20px;
+  border-bottom: 4px solid #e6b800;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header p {
+  margin-top: 8px;
+  font-size: 1.1rem;
+}
+
+/* Secciones generales */
+section {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+h2 {
+  color: #8b4513; /* Color café para títulos */
+}
+
+/* Galería de productos */
+.galeria {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.tarjeta {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 15px;
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+}
+
+.tarjeta img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.tarjeta h3 {
+  margin: 12px 0 6px;
+}
+
+.tarjeta p {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Botones */
+.contacto {
+  margin-top: 40px;
+}
+
+.boton {
+  display: inline-block;
+  background-color: #ffa500; /* Naranja/Amarillo cálido */
+  color: #ffffff;
+  padding: 12px 24px;
+  margin: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 25px;
+  transition: background-color 0.3s;
+}
+
+.boton:hover {
+  background-color: #e69500;
+}
+
+.boton.secundario {
+  background-color: #8b4513;
+}
+
+.boton.secundario:hover {
+  background-color: #6e360f;
+}
+
+/* Pie de página */
+footer {
+  background-color: #ffe680;
+  padding: 15px;
+  margin-top: 40px;
+  font-size: 0.9rem;
+}
